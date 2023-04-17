@@ -3,10 +3,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Erik Pacheco</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="https://public-assets.themuse.com/images/favicons/favicon-32x32.png">
-    <link rel="stylesheet" href="style.css"/>
+    <title>Erik Pacheco | Contact</title>
     <script src="javascript.js"></script>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://public-assets.themuse.com/images/favicons/favicon-32x32.png">
     <h1>Erik Pacheco</h1>
 </head>
 <body>
@@ -29,16 +29,30 @@
         </li>
 
         <li class="page-collection">
-          <a href="contact.html">Contact</a>
+            <a href="contact.html">Contact</a>
         </li>
+
     </ul>
-    <img src="https://i.pinimg.com/736x/f6/1c/60/f61c60275f536ba2fe7d8cb2b0e475a9--cristiano-ronaldo-cr-international-business-times.jpg" alt="main photo"
-    class="center" width="150px">
-    <h3>Developer, artist, athlete</h3>
-    <p>Intrested in advancing my career trajectory through the means of technology, and promoting a healthy lifestyle. </p>
-    <p>
-        I count him braver who overcomes his desires than him who conquers his enemies; for the hardest victory is over self. - Aristotle
-    </p>
+   <article>
+        <h2>Contact Information</h2>
+        <form onsubmit="submitform(); return false">
+            <label for="Name">First and Last Name:</label> <br /> 
+            <input type="text" id-"Name" name="Name" /> <br />
+
+
+            <label for="email">Email:</labels> <br /> 
+            <input type="email" id= "email" name= "email"/> <br /> <br />
+
+            <label for="w3review">Message:</label> <br />
+            <textarea name="w3review" id="w3review" cols="30" rows="10"></textarea> <br /> <br />
+
+            <input type="submit" value= "Submit" /> 
+            <br /><br /><br /><br />
+
+
+        </form>
+    </article> 
+
     <footer>
         <a href="https://facebook.com" target="_blank">
           <img class="media-link" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png" alt=""
@@ -53,5 +67,6 @@
           width="20px">
         </a>
       </footer>
+    
 </body>
 </html>

@@ -14,4 +14,6 @@ Portfolio.html - different projects displayed
 
 Portfolio.css - makes the portfolio file look how it looks
 
-Javascript.js - basic variables to push out "hello world" through console.log
+Javascript.js - code to make the contact.html run when inputting the information into the forms
+
+Contact.html - used the form tag to input the contact information
